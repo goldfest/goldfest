@@ -1,0 +1,70 @@
+@import 'fonts.css';
+@import 'default.css';
+@import 'aiu.css';
+@import 'style.css';
+
+.videos4 {
+	background: linear-gradient(180deg, #d3f8d6 0.2%, rgba(228, 252, 222, 0.64), rgba(231, 255, 216, 0.5), rgba(227, 252, 209, 0.5) 64.9%);
+	background-size: 400% 400%;
+	animation: gradient 7s ease infinite;
+    text-align: center;
+    margin-top: 0px;
+    width: 1349px;
+    height: 2040px;
+    
+}
+
+.cont4{
+    position:relative;
+    top: 190px;
+    margin: 0 auto;
+    left: 15px;
+}
+
+.header_title4 {
+    font-style: normal;
+    padding: 0 0 30px 0;
+    font-size: 48px;
+    line-height: 56px;
+    color: #1B4503;
+    margin: 0 auto;
+    font-family: 'Raleway';
+    font-weight: 500;
+    position: absolute;
+    width: 605.94px;
+    height: 113.02px;
+    margin-left: -50px;
+    margin-top: -130px;
+}
+
+.title_header_text4{
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 940px;
+    height: 155px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #1B4503;
+}
+
+.header_title_text4 {
+    position: absolute;
+    width: 544.95px;
+    height: 169.53px;
+    margin-left: 120px;
+    margin-top: 0px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: left;
+
+    color: #1B4503;
+}
+
+.karta4{
+    margin-top: 100px;
+}

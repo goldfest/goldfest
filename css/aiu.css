@@ -1,0 +1,496 @@
+@import 'fonts.css';
+@import 'default.css';
+@import 'style.css';
+
+.header_title1 {
+    font-style: normal;
+    padding: 0 0 36px 0;
+    font-size: 48px;
+    line-height: 56px;
+    color: #365127;
+    margin: 0 auto;
+    font-family: 'Raleway';
+    font-weight: 500;
+    position: absolute;
+    width: 605.94px;
+    height: 113.02px;
+    left: 110px;
+    top: 170px;
+}
+.header_title_text1 {
+    position: absolute;
+    width: 544.95px;
+    height: 169.53px;
+    left: 110px;
+    top: 300px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #377414;
+}
+
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 0.6s all ease;
+  }
+  
+  .reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+.cont1{
+    position:relative;
+    top: 668px;
+    margin: 0 auto;
+    left: 15px;
+}
+
+.videos1 {
+    width: 1349px;
+    height: 720px;
+}
+
+@keyframes ani {
+    0% {transform: translateX(-150px); opacity: 0;}
+    100% {transform: translateY(0); opacity: 1;}
+}
+
+  
+
+  .header1 {
+    position: absolute;
+    width: 1300px;
+    margin: 0 23.5px;
+    padding-top: 180px;
+    padding: 0 auto;
+    margin: 0;
+    opacity: 0;
+    transform: translateX(-150%);
+    animation: ani 2s forwards;
+}
+
+.video2{
+    position: absolute;
+    background-repeat: no-repeat;
+    z-index:-1;
+    height: 758px;
+    overflow: hidden;
+}
+
+.no-scrollbar {
+    overflow-y: scroll;
+    scrollbar-width: none; /*mozilla*/
+  }
+.no-scrollbar::-webkit-scrollbar {
+    display: none; /*chrome*/
+}
+
+/* .main1 {
+    text-align: center;
+    top:-30px;
+    height: 1440px;
+    background: linear-gradient(180deg, #A7ADBA 0.31%, rgba(153, 169, 141, 0.64) 64.9%);
+    width: 1349px;
+} */
+
+.main1 {
+	background: linear-gradient(180deg, #A7ADBA 0.5%, rgba(153, 169, 141, 0.64), rgba(132, 155, 114, 0.5), rgba(95, 124, 75, 0.5) 64.9%);
+	background-size: 400% 400%;
+	animation: gradient 7s ease infinite;
+    text-align: center;
+    top:-30px;
+    width: 1349px;
+    height: 1440px;
+    
+}
+ 
+@keyframes gradient {
+	0% {
+		background-position: 50% 0%;
+	}
+	50% {
+		background-position: 50% 100%;
+	}
+	100% {
+		background-position: 50% 0%;
+	}
+}
+
+  
+
+
+.aiu1 {
+    position: absolute;
+    width: 646px;
+    height: 430px;
+    top: 790px;
+    margin-left: 85px;
+    background-image:url(../img/2_1.jpg);
+}
+
+
+.fon1 {
+    position: absolute;
+    width: 646px;
+    height: 431px;
+    transition: all 0.3s;
+
+    background: linear-gradient(0deg, rgba(168, 105, 60, 0.51) 49.88%, rgba(237, 199, 172, 0) 68.68%);
+}
+
+
+
+
+
+
+
+.aiu2 {
+    position: absolute;
+    width: 474px;
+    height: 430px;
+
+    top: 790px;
+    margin-left: 731px;
+    background-image:url(../img/2_2.jpg);
+}
+
+
+.fon2 {
+    position: absolute;
+    width: 474px;
+    height: 429px;
+    background: linear-gradient(360deg, rgba(175, 74, 0, 0.4) 40.09%, rgba(57, 89, 39, 0) 100%);
+    transition: all 0.3s;
+}
+
+
+
+.aiu3 {
+    position: absolute;
+    width: 476px;
+    height: 429px;
+
+    top: 1220px;
+    margin-left: 85px;
+    background-image:url(../img/2_3.jpg);
+}
+
+
+.fon3 {
+    position: absolute;
+    width: 476px;
+    height: 429px;
+    background: linear-gradient(0deg, rgba(28, 12, 205, 0.4) 38.46%, rgba(56, 88, 200, 0) 100%);
+    transition: all 0.3s;
+}
+
+.aiu4 {
+    position: absolute;
+    width: 644px;
+    height: 429px;
+
+    top: 1220px;
+    margin-left: 561px;
+    background-image:url(../img/2_4.jpg);
+}
+
+.fon4 {
+    position: absolute;
+    width: 644px;
+    height: 429px;
+    background: linear-gradient(0deg, rgba(35, 225, 225, 0.4) 55.83%, rgba(0, 255, 255, 0) 97.67%);
+    transition: all 0.3s;
+}
+
+.aiu5 {
+    position: absolute;
+    width: 1120px;
+    height: 424px;
+
+    top: 1649px;
+    margin-left: 85px;
+    background-image:url(../img/2_5.jpg);
+}
+
+.fon5 {
+    position: absolute;
+    width: 1120px;
+    height: 424px;
+    background: linear-gradient(360deg, rgba(4, 4, 4, 0.4) 36.67%, rgba(28, 29, 24, 0) 98.11%);
+    transition: all 0.3s;
+}
+
+.aiu_1 {
+    position: absolute;
+    width: 376px;
+    height: 47px;
+    left: 31px;
+    top: 315px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    /* identical to box height */
+    transition:all 0.5s;
+
+
+    color: #FFFFFF;
+}
+
+
+
+
+
+.aiu_2 {
+    position: absolute;
+    left: 31px;
+    height: 47px;
+    left: 31px;
+    top: 300px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 47px;
+    transition:all 0.5s;
+
+    color: #FFFFFF;
+}
+
+.aiu_3 {
+    position: absolute;
+    left: 31px;
+    right: 32.56%;
+    top: 69.23%;
+    bottom: 6.53%;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    transition:all 0.5s;
+
+    color: #FFFFFF;
+}
+
+.aiu_4 {
+    position: absolute;
+    left: 5.9%;
+    right: 41.46%;
+    top: 74.11%;
+    bottom: 14.93%;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    transition:all 0.5s;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.aiu_5 {
+    position: absolute;
+    left: 4.82%;
+    right: 51.83%;
+    top: 73.82%;
+    bottom: 15.09%;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    transition:all 0.5s;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+.aiu1 :hover .aiu_1{
+    top: 210px;
+}
+
+.aiu2 :hover .aiu_2{
+    top: 57px;
+}
+.aiu3 :hover .aiu_3{
+    top: 125px;
+}
+.aiu4 :hover .aiu_4{
+    top: 116px;
+}
+.aiu5 :hover .aiu_5{
+    top: 210px;
+}
+
+
+.text1 {
+    opacity: 0;
+    position: absolute;
+    width: 510px;
+    height: 112px;
+    left: 31px;
+    top: 277px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #FFFFFF;
+    transition: all 0.7s;
+}
+
+.aiu1:hover .text1 {
+    opacity: 1;
+}
+
+
+.text2 {
+    position: absolute;
+    left: 31px;
+    right: 13.89%;
+    top: 39.12%;
+    bottom: 4.2%;
+    opacity: 0;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    transition: all 0.7s;
+
+    color: #FFFFFF;
+}
+
+.aiu2:hover .text2 {
+    opacity: 1;
+}
+.text4 {
+    position: absolute;
+    left: 5.9%;
+    right: 10.71%;
+    top: 43.12%;
+    bottom: -2.8%;
+    opacity: 0;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    transition: all 0.7s;
+
+    color: #000000;
+}
+
+.aiu4:hover .text4 {
+    opacity: 1;
+}
+.text3 {
+    position: absolute;
+    left: 31px;
+    right: 9.45%;
+    top: 55.94%;
+    bottom: 4.9%;
+    opacity: 0;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    transition: all 0.7s;
+
+    color: #FFFFFF;
+}
+
+.aiu3:hover .text3 {
+    opacity: 1;
+}
+.text5 {
+    position: absolute;
+    left: 4.82%;
+    right: 19.98%;
+    top: 65.33%;
+    bottom: 8.25%;
+    opacity: 0;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    transition: all 0.7s;
+
+    color: #FFFFFF;
+}
+
+.aiu5:hover .text5 {
+    opacity: 1;
+}
+
+.aiu1:hover .fon1 {
+    position: absolute;
+    width: 646px;
+    height: 431px;
+
+    background: rgba(255, 107, 0, 0.21);
+}
+
+.aiu2:hover .fon2 {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    background: rgba(175, 74, 0, 0.4);
+}
+
+.aiu3:hover .fon3 {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    background: rgba(20, 0, 244, 0.4);
+}
+
+.aiu4:hover .fon4 {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    
+    background: rgba(35, 225, 225, 0.4);
+}
+
+.aiu5:hover .fon5 {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    
+    background: rgba(4, 4, 4, 0.4);
+}
