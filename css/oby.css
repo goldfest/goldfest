@@ -3,6 +3,19 @@
 @import 'aiu.css';
 @import 'style.css';
 
+.fonKart4{
+    position: relative;
+    z-index: -1;
+    width: 949px;
+    height: 699px;
+    margin-top: -690px;
+    margin-left: 175px;
+    background: #74f781;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    filter: blur(5px);
+}
+
 .videos4 {
 	background: linear-gradient(180deg, #d3f8d6 0.2%, rgba(228, 252, 222, 0.64), rgba(231, 255, 216, 0.5), rgba(227, 252, 209, 0.5) 64.9%);
 	background-size: 400% 400%;
